@@ -20,3 +20,5 @@ for x in f:
     sum += 7 if x[0] == 'C' and x[2] == 'X' else 2 if x[0] == 'C' and x[2] == 'Y' else 6 if x[0] == 'C' and x[2] == 'Z' else 0
 
 print(sum)
+
+f.close()

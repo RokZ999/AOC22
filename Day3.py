@@ -16,3 +16,5 @@ sum = 0
 for x in f:
     sum += priorityCalculator(findDuplicateChar(x[len(x)//2:], x[:len(x)//2]))
 print(sum)
+
+f.close()

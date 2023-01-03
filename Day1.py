@@ -9,3 +9,5 @@ for x in f:
         list1.append(sum)
         sum = 0
 print(max(list1))
+
+f.close()
